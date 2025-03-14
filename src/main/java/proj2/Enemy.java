@@ -2,12 +2,21 @@ package proj2;
 
 
 public abstract class Enemy {
+public abstract void attack();
+//I added this one because the way he makes sounds
+//doesn't make sense yet.
+public void grunt() {
+    
+}
+    public Enemy() {
+        //lets not guess but idk yet
+//    attack();    
+    }
+//public abstract class Enemy {
     
 
     //no body here-----------------------------------------
 
-    Enemy enemy
-    Drago   12= new 
 
     private int height = 0;
     private int weight = 0;
@@ -35,5 +44,5 @@ public abstract class Enemy {
     public void setHeight(int height) {
         this.height = height;
     }
-  public abstract void attack();
+  
 }    

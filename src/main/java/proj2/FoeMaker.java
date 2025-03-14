@@ -10,9 +10,12 @@ import java.util.ArrayList;
 public class FoeMaker {
 
     public static void main(String[] args) {
-       ArrayList<Enemy> mob = new ArrayList<Enemy>(100);
+       var mob = new ArrayList<Enemy>(100);
        
-
+       //number each foe
+       //go through each and pick one at random
+       //do that 100 times
+       
        
 
        
