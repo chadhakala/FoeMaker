@@ -1,34 +1,21 @@
 package proj2;
 
 
-public abstract class Enemy {
-public abstract void attack();
+
 //I added this one because the way he makes sounds
 //doesn't make sense yet.
-public void grunt() {
-    
-}
-    public Enemy() {
-        //lets not guess but idk yet
-//    attack();    
-    }
-//public abstract class Enemy {
-    
 
-    //no body here-----------------------------------------
+public abstract class Enemy {
 
-
-    private int height = 0;
-    private int weight = 0;
-    public String grunt = "";
-    
-    
-    public Enemy(int weight, int height, String grunt) {
-        this.weight = weight;
-        this.height = height;
-        this.grunt = grunt;
+   // Ogre ogre = Enemy();
+    private int weight;
+    private int height;
+    private double heightNotInt;
+    private double weightNotInt;
+        
     }
 
+    //get weight is a field
     public int getWeight() {
         return weight;
     }
@@ -36,7 +23,7 @@ public void grunt() {
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
+    //get height is also a field
     public int getHeight() {
         return height;
     }
@@ -44,5 +31,8 @@ public void grunt() {
     public void setHeight(int height) {
         this.height = height;
     }
-  
-}    
+    public double getHeightNotInt() {
+    Enemy enemy = new Dragon(int weight, int height);
+    
+}
+

@@ -10,11 +10,13 @@ package proj2;
  */
     public abstract class Ghost {
 
-    public String grunt;
-    private int height;
-    private int weight;
-eeswaAA
-}   
+    public int height;
+    public int weight;
+
+}
+    public int getHeight(){
+    
+}
 //        System.out.println("Boo!");
     @Override
     public String toString() {

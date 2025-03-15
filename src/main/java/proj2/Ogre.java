@@ -1,16 +1,34 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package proj2;
 
-/**
- *
- * @author papaollie
- */
-public class Ogre {
-    
-        public void attack() {
-        System.out.println("Ugh!");
-}
+public class Ogre extends Enemy {
+
+    double heightNotInt = 200 + (int) (Math.random() * (300 - 200 + 1));
+
+    public Ogre() {
+        super();
+        int weight;
+        int height = (int) heightNotInt;
+        //attackText = "";
+
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+    public double setHeightNotInt(){
+    double heightNotInt = 200 + (int) (Math.random() * (300 - 200 + 1));
+    }
+
 }
